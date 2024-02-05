@@ -1,0 +1,1089 @@
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Unbounded";
+    src: url(../fonts/Unbounded-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: .7s;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background: #FDF6F2;
+    font-family: "Unbounded";
+}
+
+.content {
+    max-width: 1420px;
+    margin: 0 auto;
+}
+
+/* HEADER START */
+.header {
+    padding: 15px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.icon__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.icon__header img {
+    width: 70px;
+    height: 70px;
+}
+
+.img__icon {
+    position: absolute;
+    left: 17.5px;
+    top: 14px;
+
+}
+
+form {
+    position: relative;
+}
+
+.header__input {
+    border-radius: 40px;
+    border: 1px solid #333;
+    width: 336px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Unbounded";
+}
+
+.header__input::placeholder {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 17px 168px 17px 60px;
+    background-color: #FDF6F2;
+}
+
+.info_header a {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* BANNER START */
+.banner__img {
+    background: url(../image/glavnai/banner/banner.png) center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90vh;
+    padding: 15%;
+}
+
+.info__banner h1 {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.span__banner {
+    color: white;
+    align-items: center;
+    font-family: Unbounded;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.button_banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btn__banner {
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    padding: 13px 42px;
+    border-radius: 15px;
+    border: 4px solid #FFF;
+    font-weight: 500;
+    margin: 53px;
+}
+
+.btn__banner:hover {
+    color: #333;
+    background-color: #FFF;
+    border: 4px solid #FFF;
+}
+
+/* banner */
+.bests {
+    background: url(../image/glavnai/kategoria/Фон.png) center;
+    width: 100%;
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+}
+
+.bests-block {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.bests-photo-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bests-two-img {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.news {
+    position: relative;
+}
+
+.news p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 8px 31px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.for-him {
+    position: relative;
+}
+
+.for-him p:hover {
+    color: white;
+    background-color: #333;
+}
+
+.for-her p:hover {
+    color: white;
+    background-color: #333;
+}
+
+.news p:hover {
+    color: white;
+    background-color: #333;
+}
+
+
+.bests-btn:hover {
+    transform: scale(1.1);
+}
+
+.for-him p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 8px 31px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.for-her {
+    position: relative;
+}
+
+.for-her p {
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 8px 31px;
+    border-radius: 30px;
+    position: absolute;
+}
+
+.bests-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 84px;
+    gap: 83px;
+}
+
+.bests-text h2 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+
+.bests-btn-text {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.bests-btn {
+    border-radius: 15px;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 13px 41px;
+}
+
+.bests-btn-text p {
+    width: 496px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.img__content {
+    padding-top: 50px;
+}
+
+
+.cards_kat {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    width: 340px;
+    height: 451px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #DED4CB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.card h3 {
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.card p {
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card h4 {
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.card h5 {
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.info__katalog {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+
+}
+
+.label {
+    position: absolute;
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    background: #FDF6F2;
+    padding: 5px 13px;
+    top: 30px;
+    left: 20px;
+
+}
+
+.str {
+    width: 1420px;
+    height: 2px;
+    background: #333;
+    margin-bottom: 60px;
+    margin-top: 100px;
+}
+
+/* footer start */
+.footer-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding-top: 80px;
+}
+
+.footer-h {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+}
+
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.otz-input {
+    border: none;
+    width: 280px;
+    border-bottom: 1px solid #333;
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 10px;
+    font-family: Unbounded;
+    background-color: transparent;
+}
+
+.otz-input::placeholder {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-btn {
+    margin-top: 20px;
+    color: #FDF6F2;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    border-radius: 15px;
+    background: #9B9A99;
+    padding: 10px 31px;
+    width: 197px;
+    height: 45px;
+}
+
+.bar-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    justify-content: start;
+}
+
+.bar-text p {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 40px;
+}
+
+.tel {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact-text p {
+    color: #7B7B7B;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.copiread {
+    padding: 20px 0 50px 0;
+    color: #9B9A99;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/* footer end */
+.str1 {
+    width: 1420px;
+    height: 2px;
+    background: #333;
+    margin-bottom: 60px;
+
+}
+
+.str4 {
+    width: 40px;
+    height: 2px;
+    background-color: #9B9A99;
+
+}
+
+.fa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.fa h3 {
+    color: #9B9A99;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.fa h4 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.katalog h2 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 40px 0;
+}
+
+
+.car {
+    width: 340px;
+    height: 517px;
+    border-radius: 15px;
+    background: #DED4CB;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.text__kard h3 {
+    color: #333;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text__kard h4 {
+    color: #979797;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through solid red;
+}
+
+.text__kard {
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+    align-items: center;
+
+}
+
+.text_card p {
+    color: #979797;
+    text-align: left;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: lowercase;
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.text_card h6 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-top: 10px;
+}
+
+.text_card h5 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 20px;
+}
+
+.btn__kard1 {
+    width: 194px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 4px solid #333;
+    background: #333;
+    margin-top: 30px;
+    margin-bottom: 25px;
+
+
+}
+
+.btn__kard {
+    color: #FFF;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 10px 15px;
+
+}
+
+.karto__katalog,
+.karto__katalog1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.nomer__str {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nomer__one {
+    width: 54px;
+    height: 55px;
+    background: #DED4CB;
+    padding: 10px 20px;
+
+}
+
+.nomer__one a,
+.nomer__two a,
+.nomer__three a,
+.nomer__fo a {
+    color: #FFF;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.nomer__two {
+    width: 54px;
+    height: 55px;
+    background: #333;
+    padding: 10px 15px;
+}
+
+.nomer__three {
+    width: 54px;
+    height: 55px;
+    background: #DED4CB;
+    padding: 10px 15px;
+}
+
+.nomer__fo {
+    width: 54px;
+    height: 55px;
+    background: #DED4CB;
+    padding: 10px 15px;
+}
+
+.karta__fotop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+}
+
+.karta__fotop {
+    /* width: 170.485px;
+    height: 198px; */
+
+}
+
+.katalog__karta {
+    display: flex;
+    flex-direction: row;
+    padding-top: 60px;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.info_glav h3 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.info_glav p {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.textp__kard {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.textp__kard {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.textp__kard h4 {
+    color: #979797;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: line-through solid red;
+}
+
+.size_razmer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 23px;
+    padding-bottom: 45px;
+}
+
+.size_razmer h5 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.setka_size h4 {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.xs,
+.s,
+.m,
+.l,
+.xl {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    border-bottom: 1px solid #333;
+    width: 102px;
+    padding-bottom: 13px;
+
+}
+
+.m {
+    border: 1px solid #333;
+    padding-bottom: 13px;
+    padding-top: 15px;
+
+
+}
+
+.color_karta h4 {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.color {
+    width: 57px;
+    height: 57px;
+    border: 1px solid #283618;
+    background: #000;
+}
+
+.btn__karta a {
+    color: #FFF;
+    text-align: center;
+    font-family: Unbounded;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.korzina__karta {
+    width: 194px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 4px solid #333;
+    background: #333;
+    padding: 10px 20px;
+}
+
+.btn__karta {
+    padding: 45px 0;
+}
+
+.opisan {
+    display: flex;
+    flex-direction: row;
+    gap: 9px;
+}
+
+.texxt_opisanie p {
+    width: 534px;
+    height: 105px;
+    color: #333;
+    font-family: Unbounded;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.opisan h4 {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.opisan_karta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+    background-color: #FFF;
+    padding: 45px;
+
+}
+
+.korzina h2 {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 51.942px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.text_korzina {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    padding-top: 30px;
+}
+
+.text_korzina p,
+.text_korzina h4,
+.text_korzina h5 {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 16.267px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.text_korzina p {
+    width: 400px;
+}
+
+.stra {
+    width: 701px;
+    height: 1px;
+    background: #D8D8D8;
+    margin: 10px 0;
+}
+
+.osnova__korxina {
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.info__korxins__tovar h2 {
+    color: #333;
+    font-family: Unbounded;
+    font-size: 12.846px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 298.179px;
+}
+
+.info__korxins__tovar p {
+    color: #ACACAC;
+    font-family: Unbounded;
+    font-size: 12.983px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.tovar__korxina {
+    display: inline-flex;
+    padding: 10px 0px;
+    align-items: center;
+    gap: 18px;
+}
+
+.kol__korxina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 19px;
+    align-items: center;
+}
+
+.kol__korxina img {
+    width: 10px;
+    height: 10px;
+}
+
+.kol__korxina p {
+    color: #ACACAC;
+    font-family: Unbounded;
+    font-size: 10.899px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 33px;
+}
+
+.zena__korzina {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 16.267px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.zena__korzina p {
+    color: #283618;
+    font-family: Unbounded;
+    font-size: 16.267px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 50px;
+}
+
+.zena__korzina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.krest__korzina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_konez__korzina {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    padding-left: 380px;
+}
+
+.btn__korzina_color {
+    color: #FFF;
+    font-family: Unbounded;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 20px;
+    background: #283618;
+}
+
+.btn__korzina a {
+    display: inline-flex;
+    padding: 25px 213px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 51px;
+}       
